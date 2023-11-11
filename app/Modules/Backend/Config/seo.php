@@ -57,7 +57,7 @@ return [
             ],
             'car' => [
                 'id' => 'car',
-                'label' => ilangs('Car Page'),
+                'label' => ilangs('Transportation Page'),
                 'route' => 'car',
                 'check_enable' => 'car',
             ],
@@ -93,7 +93,7 @@ return [
             ],
             'car-search' => [
                 'id' => 'car_search',
-                'label' => ilangs('Car Search Page'),
+                'label' => ilangs('Transportation Search Page'),
                 'route' => 'car-search',
                 'check_enable' => 'car',
             ],
@@ -236,7 +236,7 @@ return [
             ],
             'car-single' => [
                 'id' => 'single_car',
-                'label' => ilangs('Single Car'),
+                'label' => ilangs('Single Transportation'),
                 'route' => 'car-single'
             ],
             'space-single' => [

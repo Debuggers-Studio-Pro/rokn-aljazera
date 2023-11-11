@@ -1,6 +1,6 @@
 @extends('Backend::layouts.master')
 
-@section('title', __('Car Orders'))
+@section('title', __('Transportation Orders'))
 
 @php
     admin_enqueue_styles([
@@ -27,7 +27,7 @@
                 <div class="row">
                     <div class="col-xl-12 col-md-12 col-sm-12 col-12">
                         <div class="d-flex align-items-center justify-content-between">
-                            <h4>{{__('Car Orders')}}</h4>
+                            <h4>{{__('Transportation Orders')}}</h4>
                         </div>
                     </div>
                 </div>

@@ -7,7 +7,7 @@ $search_url = url('car-search');
 @if(!$car_types->isEmpty())
 <section class="car-type">
     <div class="container py-40">
-        <h2 class="section-title mb-20">{{__('Car Types')}}</h2>
+        <h2 class="section-title mb-20">{{__('Transportation Types')}}</h2>
         <div class="row">
             @foreach($car_types as $item)
                 @php

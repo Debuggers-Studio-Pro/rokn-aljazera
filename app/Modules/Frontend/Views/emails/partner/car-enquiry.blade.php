@@ -112,15 +112,15 @@
             $car_name = get_translate($post['post_title']);
         @endphp
         <p>{{__('Hello')}} <strong>{{get_user_name($user_id)}}</strong>,</p>
-        <p><b>{{sprintf(__('Have new booking request for Car "%s"'), $car_name)}}</b></p>
+        <p><b>{{sprintf(__('Have new booking request for Transportation "%s"'), $car_name)}}</b></p>
         <p><b>{{__('Booking detail')}}</b></p>
         <div class="order-detail">
             <div class="item">
-                <span class="title">{{__('Car ID:')}}</span>
+                <span class="title">{{__('Transportation ID:')}}</span>
                 <span class="info">{{ $post['id'] }}</span>
             </div>
             <div class="item">
-                <span class="title">{{__('Car Name:')}}</span>
+                <span class="title">{{__('Transportation Name:')}}</span>
                 <span class="info"><a href="{{get_car_permalink($post['post_slug'])}}">{{$car_name}}</a></span>
             </div>
             <div class="item">

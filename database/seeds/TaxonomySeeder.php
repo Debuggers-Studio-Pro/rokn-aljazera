@@ -30,17 +30,17 @@ class TaxonomySeeder extends Seeder
                 'post_type' => 'post'
             ],
             [
-                'taxonomy_title' => 'Car Types',
+                'taxonomy_title' => 'Transportation Types',
                 'taxonomy_name' => 'car-type',
                 'post_type' => 'car'
             ],
             [
-                'taxonomy_title' => 'Car Features',
+                'taxonomy_title' => 'Transportation Features',
                 'taxonomy_name' => 'car-feature',
                 'post_type' => 'car'
             ],
             [
-                'taxonomy_title' => 'Car Equipments',
+                'taxonomy_title' => 'Transportation Equipments',
                 'taxonomy_name' => 'car-equipment',
                 'post_type' => 'car'
             ],

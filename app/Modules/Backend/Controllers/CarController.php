@@ -63,7 +63,7 @@ class CarController extends Controller
             $postData['post_type'] = 'car';
             return $this->getView($this->getFolderView('services.car.edit'), [
                 'serviceData' => $postData,
-                'title' => __('Edit car'),
+                'title' => __('Edit Transportation'),
                 'new' => false
             ]);
         }
@@ -98,7 +98,7 @@ class CarController extends Controller
         $postData['post_type'] = 'car';
         return $this->getView($this->getFolderView('services.car.edit'), [
             'serviceData' => $postData,
-            'title' => __('Add new car'),
+            'title' => __('Add new Transportation'),
             'new' => true
         ]);
     }

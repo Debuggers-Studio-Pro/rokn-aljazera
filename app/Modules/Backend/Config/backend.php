@@ -14,8 +14,8 @@ return [
             'slug' => 'page'
         ],
         'car' => [
-            'singular' => ilangs('Car'),
-            'plural' => ilangs('Cars'),
+            'singular' => ilangs('Transportation'),
+            'plural' => ilangs('Transportations'),
             'slug' => 'car'
         ],
         'apartment' => [
@@ -327,14 +327,14 @@ return [
         /*car*/
         'car' => [
             'type' => 'parent',
-            'label' => ilangs('Car'),
+            'label' => ilangs('Transportation'),
             'icon' => 'fa-car',
             'id' => 'car',
             'service' => 'car',
             'child' => [
                 [
                     'type' => 'item',
-                    'label' => ilangs('All Cars'),
+                    'label' => ilangs('All Transportations'),
                     'screen' => 'all-cars',
                 ],
                 [
@@ -715,14 +715,14 @@ return [
         ],
         'car' => [
             'type' => 'parent',
-            'label' => ilangs('Car'),
+            'label' => ilangs('Transportation'),
             'icon' => 'fa-car',
             'id' => 'car',
             'service' => 'car',
             'child' => [
                 [
                     'type' => 'item',
-                    'label' => ilangs('All Cars'),
+                    'label' => ilangs('All Transportation'),
                     'screen' => 'all-cars',
                 ],
                 [

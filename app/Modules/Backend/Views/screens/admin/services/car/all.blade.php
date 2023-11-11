@@ -1,6 +1,6 @@
 @extends('Backend::layouts.master')
 
-@section('title', __('All Cars'))
+@section('title', __('All Transportations'))
 
 @php
     admin_enqueue_styles([
@@ -24,7 +24,7 @@
                 <div class="row">
                     <div class="col-xl-12 col-md-12 col-sm-12 col-12">
                         <div class="d-flex align-items-center justify-content-between">
-                            <h4>{{__('All Cars')}}</h4>
+                            <h4>{{__('All Transportations')}}</h4>
                             <a href="{{dashboard_url('new-car')}}" class="btn btn-success">{{__('Add New')}}</a>
                         </div>
                     </div>

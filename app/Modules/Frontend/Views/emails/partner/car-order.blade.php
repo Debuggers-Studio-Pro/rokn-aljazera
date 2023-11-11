@@ -146,7 +146,7 @@
     </div>
     <div class="email-content">
         <p>{{__('Hello')}} <strong>{{get_user_name($user_id)}}</strong>,</p>
-        <p><b>{{__('Have an order request for your Car')}}</b></p>
+        <p><b>{{__('Have an order request for your Transportation')}}</b></p>
         <div class="order-detail" style="margin-top: 20px;">
             <p><b>{{__('Order Information')}}</b></p>
             @php
@@ -154,7 +154,7 @@
                 $gateway = Gateway::inst()->getGateway($order['payment_type']);
             @endphp
             <div class="item">
-                <span class="title">{{__('Car Name')}}</span>
+                <span class="title">{{__('Transportation Name')}}</span>
                 <span class="info"><a href="{{get_car_permalink($post['post_slug'])}}">{{get_translate($post['post_title'])}}</a></span>
             </div>
             <div class="item">

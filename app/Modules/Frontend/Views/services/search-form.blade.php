@@ -50,7 +50,7 @@
                     }
                 @endphp
             <li class="nav-item">
-                <a class="nav-link {{$car_active}}" id="car-search-tab" data-toggle="tab" href="#car-search" role="tab" aria-controls="car-search" aria-selected="false"><i class="fal fa-car-alt"></i> {{__('Car')}}</a>
+                <a class="nav-link {{$car_active}}" id="car-search-tab" data-toggle="tab" href="#car-search" role="tab" aria-controls="car-search" aria-selected="false"><i class="fal fa-car-alt"></i> {{__('Transportation')}}</a>
             </li>
         @endif
             @if(in_array(GMZ_SERVICE_SPACE, $srvc))

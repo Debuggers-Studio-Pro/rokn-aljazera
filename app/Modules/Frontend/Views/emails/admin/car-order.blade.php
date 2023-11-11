@@ -154,7 +154,7 @@
                 $gateway = Gateway::inst()->getGateway($order['payment_type']);
             @endphp
             <div class="item">
-                <span class="title">{{__('Car Name')}}</span>
+                <span class="title">{{__('Transportation Name')}}</span>
                 <span class="info"><a href="{{get_car_permalink($post['post_slug'])}}">{{get_translate($post['post_title'])}}</a></span>
             </div>
             <div class="item">

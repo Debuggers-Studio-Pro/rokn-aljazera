@@ -29,7 +29,7 @@
 						    if($service == GMZ_SERVICE_CAR){
 								$find_services[] = [
 									'url' => $search_url,
-									'text' => sprintf(_n(__('%s Car'), __('%s Cars'), $number_service), $number_service)
+									'text' => sprintf(_n(__('%s Transportation'), __('%s Transportations'), $number_service), $number_service)
 								];
 							}elseif($service == GMZ_SERVICE_APARTMENT){
 						        $find_services[] = [
@@ -79,7 +79,7 @@
 					    }
 
 					    if($all_services[0] == GMZ_SERVICE_CAR){
-					        $text = sprintf(_n(__('There are %s Car'), __('There are %s Cars'), $number_service), $number_service);
+					        $text = sprintf(_n(__('There are %s Transportation'), __('There are %s Transportations'), $number_service), $number_service);
 					    }
 
 					    if($all_services[0] == GMZ_SERVICE_HOTEL){

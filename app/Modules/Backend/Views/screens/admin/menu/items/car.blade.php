@@ -32,7 +32,7 @@
 				<?php
 				}
 				}else {
-					echo __('No car found');
+					echo __('No transportation found');
 				}
 				?>
             </div>

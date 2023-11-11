@@ -22,7 +22,7 @@
 
 					$number_service = count_service_by_location(GMZ_SERVICE_CAR, $lat, $lng);
 
-					$text = sprintf(_n(__('There are %s Car'), __('There are %s Cars'), $number_service), $number_service);
+					$text = sprintf(_n(__('There are %s Transportation'), __('There are %s Transportations'), $number_service), $number_service);
 				@endphp
 				<div class="location-item">
 					<div class="location-item__thumbnail">

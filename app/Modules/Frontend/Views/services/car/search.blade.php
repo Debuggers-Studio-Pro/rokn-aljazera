@@ -1,6 +1,6 @@
 @extends('Frontend::layouts.master')
 
-@section('title', __('Car Search Page'))
+@section('title', __('Transportation Search Page'))
 @section('class_body', 'search-page')
 
 @php

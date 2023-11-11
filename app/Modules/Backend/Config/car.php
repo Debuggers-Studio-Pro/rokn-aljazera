@@ -55,7 +55,7 @@ return [
                 ],
                 [
                     'id' => 'car_type',
-                    'label' => ilangs('Car Type'),
+                    'label' => ilangs('Transportation Type'),
                     'type' => 'select',
                     'std' => '',
                     'layout' => 'col-sm-4 col-12',
@@ -265,7 +265,7 @@ return [
                 ],
                 [
                     'id' => 'car_feature',
-                    'label' => ilangs('Car Features'),
+                    'label' => ilangs('Transportation Features'),
                     'type' => 'checkbox',
                     'std' => '',
                     'break' => true,

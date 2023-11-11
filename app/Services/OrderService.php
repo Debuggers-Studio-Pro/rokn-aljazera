@@ -87,7 +87,7 @@ class OrderService extends AbstractService
             if ($serviceObject['quantity'] < $cart['cart_data']['number']) {
                 return [
                     'status' => false,
-                    'message' => __('This Car is not available')
+                    'message' => __('This Transportation is not available')
                 ];
             }
         } elseif ($cart['post_type'] == GMZ_SERVICE_BEAUTY) {

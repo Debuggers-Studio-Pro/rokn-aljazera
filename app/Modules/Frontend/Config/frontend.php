@@ -3,9 +3,9 @@ return [
     'translations' => [
         __('Categories'),
         __('Tags'),
-        __('Car Types'),
-        __('Car Features'),
-        __('Car Equipments'),
+        __('Transportation Types'),
+        __('Transportation Features'),
+        __('Transportation Equipments'),
         __('Apartment Types'),
         __('Apartment Amenities'),
         __('Property Types'),

@@ -45,7 +45,7 @@
                     @endif
                 </li>
                 <li class="mb-1">
-                    Import Car data
+                    Import Transportation data
                     @if($step > 5)
                         {!! $text_done !!}
                     @endif

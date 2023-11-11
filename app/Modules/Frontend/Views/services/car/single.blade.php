@@ -165,7 +165,7 @@
                         <h2 class="section-title">{{__('Policies')}}</h2>
                         <div class="section-content">
                             <div class="cancel-day">
-                                {{sprintf(__('Customers can cancel this Car before %s day(s)'), $cancel_before)}}
+                                {{sprintf(__('Customers can cancel this Transportation before %s day(s)'), $cancel_before)}}
                             </div>
                             @if(!empty($cancellation_detail))
                                 <div class="cancel-detail">
@@ -176,7 +176,7 @@
                     </section>
                 @endif
                 <section class="map">
-                    <h2 class="section-title">{{__('Car On Map')}}</h2>
+                    <h2 class="section-title">{{__('Transportation On Map')}}</h2>
                     <div class="section-content">
                         <div class="map-single" data-lat="{{$post['location_lat']}}" data-lng="{{$post['location_lng']}}"></div>
                     </div>

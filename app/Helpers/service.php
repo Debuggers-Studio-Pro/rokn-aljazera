@@ -355,35 +355,35 @@ if (!function_exists('get_search_string')) {
                 }
                 if ($total_result == 1) {
                     if (empty($params['address']) && empty($params['checkIn'])) {
-                        $search_str = __('Found <b>1 Car</b>');
+                        $search_str = __('Found <b>1 Transportation</b>');
                     }
                     if (empty($params['address']) && !empty($params['checkIn'])) {
-                        $search_str = sprintf(__('Found <b>1 Car</b> from <b>%s</b> to <b>%s</b>'), $checkIn, $checkOut);
+                        $search_str = sprintf(__('Found <b>1 Transportation</b> from <b>%s</b> to <b>%s</b>'), $checkIn, $checkOut);
                     }
                     if (!empty($params['address']) && empty($params['checkIn'])) {
-                        $search_str = sprintf(__('Found <b>1 Car</b> in <b>%s</b>'), urldecode($params['address']));
+                        $search_str = sprintf(__('Found <b>1 Transportation</b> in <b>%s</b>'), urldecode($params['address']));
                     }
 
                     if (!empty($params['address']) && !empty($params['checkIn'])) {
-                        $search_str = sprintf(__('Found <b>1 Car</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>'), $params['address'], $checkIn, $checkOut);
+                        $search_str = sprintf(__('Found <b>1 Transportation</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>'), $params['address'], $checkIn, $checkOut);
                     }
                 } else {
                     if (empty($params['address']) && empty($params['checkIn'])) {
-                        $search_str = sprintf(__('Found <b>%s Cars</b>'), $total_result);
+                        $search_str = sprintf(__('Found <b>%s Transportations</b>'), $total_result);
                     }
                     if (empty($params['address']) && !empty($params['checkIn'])) {
-                        $search_str = sprintf(__('Found <b>%s Cars</b> from <b>%s</b> to <b>%s</b>'), $total_result, $checkIn, $checkOut);
+                        $search_str = sprintf(__('Found <b>%s Transportations</b> from <b>%s</b> to <b>%s</b>'), $total_result, $checkIn, $checkOut);
                     }
                     if (!empty($params['address']) && empty($params['checkIn'])) {
-                        $search_str = sprintf(__('Found <b>%s Cars</b> in <b>%s</b>'), $total_result, $params['address']);
+                        $search_str = sprintf(__('Found <b>%s Transportations</b> in <b>%s</b>'), $total_result, $params['address']);
                     }
 
                     if (!empty($params['address']) && !empty($params['checkIn'])) {
-                        $search_str = sprintf(__('Found <b>%s Cars</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>'), $total_result, $params['address'], $checkIn, $checkOut);
+                        $search_str = sprintf(__('Found <b>%s Transportations</b> in <b>%s</b> from <b>%s</b> to <b>%s</b>'), $total_result, $params['address'], $checkIn, $checkOut);
                     }
                 }
             } else {
-                $search_str = __('No Cars found');
+                $search_str = __('No Transportations found');
             }
         } elseif ($service == GMZ_SERVICE_APARTMENT) {
             if ($total_result > 0) {
@@ -568,7 +568,7 @@ if (!function_exists('get_search_string')) {
                     }
 
                     if (!empty($params['address']) && !empty($params['checkIn'])) {
-                        $search_str = sprintf(__('Found <b>%s Cars</b> in <b>%s</b> on <b>%s</b>'), $total_result, $params['address'], $checkIn);
+                        $search_str = sprintf(__('Found <b>%s Transportations</b> in <b>%s</b> on <b>%s</b>'), $total_result, $params['address'], $checkIn);
                     }
                 }
             } else {

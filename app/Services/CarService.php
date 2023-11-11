@@ -712,8 +712,8 @@ class CarService extends AbstractService
     public function storeNewPost()
     {
         $data = [
-            'post_title' => 'New car ' . time(),
-            'post_slug' => Str::slug('New car ' . time()),
+            'post_title' => 'New Transportation ' . time(),
+            'post_slug' => Str::slug('New Transportation ' . time()),
             'author' => get_current_user_id(),
             'status' => 'temp'
         ];

@@ -3,7 +3,7 @@
         <ul>
             <li><a href="{{url('/')}}">{{__('Home')}}</a></li>
             @if($post_type == 'car')
-                <li><a href="{{url('car-search')}}">{{__('Car')}}</a></li>
+                <li><a href="{{url('car-search')}}">{{__('Transportation')}}</a></li>
             @endif
             @if($post_type == 'page')
                 <li><span>{{$data['title']}}</span></li>

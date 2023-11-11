@@ -15,7 +15,7 @@ $search_url = url('car-search');
 @if(!$list_cars->isEmpty())
     <section class="list-car list-car--grid py-40 bg-gray-100 mb-0 nearby">
         <div class="container">
-            <h2 class="section-title mb-20">{{__('Cars Near By')}}</h2>
+            <h2 class="section-title mb-20">{{__('Transportations Near By')}}</h2>
             <div class="row">
                 @foreach($list_cars as $item)
                     @php

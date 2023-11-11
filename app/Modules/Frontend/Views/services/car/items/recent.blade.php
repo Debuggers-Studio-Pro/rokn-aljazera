@@ -11,7 +11,7 @@
     @if(!$list_cars->isEmpty())
         <section class="list-car list-car--grid py-40 bg-gray-100">
             <div class="container">
-                <h2 class="section-title mb-20">{{__('List Of Cars')}}</h2>
+                <h2 class="section-title mb-20">{{__('List Of Transportations')}}</h2>
                 <div class="row">
                     @foreach($list_cars as $item)
                         <div class="col-lg-4 col-md-4 col-sm-12">

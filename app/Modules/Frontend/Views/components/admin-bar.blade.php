@@ -48,7 +48,7 @@
                     <a class="dropdown-item" href="{{dashboard_url('new-beauty')}}">{{__('Beauty')}}</a>
                 @endif
             @if(is_enable_service('car'))
-            <a class="dropdown-item" href="{{dashboard_url('new-car')}}">{{__('Car')}}</a>
+            <a class="dropdown-item" href="{{dashboard_url('new-car')}}">{{__('Transportation')}}</a>
             @endif
             <a class="dropdown-item" href="{{dashboard_url('all-media')}}">{{__('Media')}}</a>
             @if(is_admin())
